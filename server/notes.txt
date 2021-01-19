@@ -1,0 +1,3 @@
+nodemon = npm nodemon - runs code
+ctrl c quits the server
+rs for restarting
