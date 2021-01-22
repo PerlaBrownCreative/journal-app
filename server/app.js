@@ -7,6 +7,7 @@ let user = require('./controllers/usercontroller');
 let calc = require("./controllers/calculatorcontroller")
 
 sequelize.sync();
+app.use(require('./middleware/headers'));
 app.use(express.json());
 
 /***Exposed Route***/
